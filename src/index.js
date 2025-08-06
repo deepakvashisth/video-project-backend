@@ -3,6 +3,7 @@
 // });
 import dotenv from "dotenv";
 import connectToDb from "./db/index.js";
+import { app } from "./app.js";
 dotenv.config({
   path: "./env",
 });
